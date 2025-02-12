@@ -39,13 +39,14 @@ body {
   );
   z-index: -1;
 }
-
 #header-text {
   position: absolute;
   top: 10%; /* Ajusta la distancia desde la parte superior */
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  font-size: 3rem; /* En lugar de px, usa rem */
+  top: 10vh;
   color: #ff4d6d; /* Color rojo romántico */
   font-size: 3rem;
   font-weight: bold;
@@ -81,4 +82,9 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
 }
