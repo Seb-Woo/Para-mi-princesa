@@ -46,7 +46,7 @@ body {
   transform: translateX(-50%);
   text-align: center;
   font-size: 3rem; /* En lugar de px, usa rem */
-  top: 10vh;
+  top: 8vh;
   color: #ff4d6d; /* Color rojo romántico */
   font-size: 3rem;
   font-weight: bold;
@@ -56,7 +56,7 @@ body {
 
 #messages {
   position: absolute;
-  bottom: 3%; /* Ajusta la distancia desde la parte inferior */
+  bottom: 2%; /* Ajusta la distancia desde la parte inferior */
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -68,7 +68,7 @@ body {
 }
 
 #messages p {
-  margin: 10px 0;
+  margin: 8px 0;
   animation: fadeIn 2s ease-in-out;
 }
 
